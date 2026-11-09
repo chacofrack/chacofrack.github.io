@@ -23,36 +23,36 @@
             font-size: 1.2rem;
         }
 
+        .info-button {
+            display: inline-block;
+            margin: 12px 0 24px;
+            padding: 12px 20px;
+            border-radius: 6px;
+            background-color: #2c3e50;
+            color: #fff;
+            font-size: 1rem;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .info-button:hover,
+        .info-button:focus {
+            background-color: #1a252f;
+        }
+
         .fullfrack-image {
             display: block;
             width: 100%;
             max-width: 1000px;
             height: auto;
             margin: 24px auto;
-            cursor: pointer;
-        }
-
-        .fullfrack-link {
-            display: inline-block;
-            max-width: 1000px;
-            width: 100%;
-        }
-
-        a {
-            display: inline-block;
-            margin-top: 20px;
-            color: #2c3e50;
-            font-weight: bold;
-            text-decoration: none;
         }
     </style>
 </head>
 <body>
     <h1><strong>Chaco Frack</strong>!</h1>
     <p>We are under construction.</p>
-    <a href="about.html">Further Fracking Info</a>
-    <a class="fullfrack-link" href="fullfrack.png" target="_blank" rel="noopener noreferrer" aria-label="Open fullfrack image in a larger view">
-        <img class="fullfrack-image" src="fullfrack.png" alt="Fullfrack">
-    </a>
+    <a class="info-button" href="about.html">Further Fracking Info</a>
+    <img class="fullfrack-image" src="fullfrack.png" alt="Fullfrack">
 </body>
 </html>
